@@ -1,0 +1,31 @@
+body{
+  background-image: url(./assets/suco.png);
+  background-size: 100%;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+mark{
+  color: rgba(30,53,150,255);
+  background-color: rgba(252,252,253,255); 
+}
+
+button{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: rgba(194,199,254,255);
+  color: rgba(64,86,203,255);
+  border-color: rgba(115,128,231,255);
+  border-style: dashed;
+}
+
+.container{
+  border-radius: 25px;
+  width: 30%;
+  display: block; 
+  margin: 0 auto;
+  border-style: double;
+  border-color: rgba(255, 255, 255, 0.705);
+  border-width: 2px;
+  backdrop-filter: blur(5px); 
+  bottom: 0%;
+}
